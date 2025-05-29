@@ -1,0 +1,4 @@
+/* Import theme */
+@import "theme/gnome-theme.css";
+@import "customChrome.css"; 
+

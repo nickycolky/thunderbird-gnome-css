@@ -1,0 +1,23 @@
+@import "icons/icons.css";
+@import "colors/light.css";
+
+/* Thunderbird */
+@import "parts/variables.css";
+@import "parts/icons.css";
+@import "parts/toolbox.css";
+@import "parts/csd.css";
+@import "parts/headerbar.css";
+@import "parts/tabsbar.css";
+@import "parts/mail.css";
+@import "parts/calendar.css";
+
+@import "parts/buttons.css";
+@import "parts/buttons-fixes.css";
+@import "parts/entries.css";
+@import "parts/controls.css";
+
+@import "parts/popups.css";
+@import "parts/popups-contents.css";
+@import "parts/dialogs.css";
+
+

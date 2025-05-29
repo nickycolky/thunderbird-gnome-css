@@ -1,0 +1,428 @@
+:root {
+  --selected-item-color: #e3b024 !important;
+  --button-primary-background-color: #e3b024 !important;
+  --primary-color-hover: #111111 !important;
+  --btn-bg-hover: rgba(230, 230, 230, 0.70) !important;
+  --btn-color-hover: #111111 !important;
+  --text-color: #404040 !important;
+  --folderpane-unread-new-count-background: #e3b024 !important;
+  --new-folder-color: #e3b024 !important;
+}
+
+#threadTree[rows="thread-card"] .card-layout td .card-container .read-status {stroke: transparent !important;}
+[is="tree-view-table-body"] > .card-layout > td > .card-container {border: 0px !important;}
+[is="tree-view-table-body"] > .card-layout > td > .card-container::before {border: 0px !important;}
+#messageHeader:not(.message-header-buttons-only-icons) .toolbarbutton-1.message-header-view-button > .toolbarbutton-menubutton-button {border-color: transparent !important;}
+:is(ul, ol)[role="tree"] .container::before {border: 0px !important;}
+:is(ul, ol)[role="tree"] .container {border: 0px !important;}
+.toolbarbutton-menubutton-dropmarker {display: none !important;}
+#mailContext-navigation > .menuitem-iconic {
+    border: 0px !important;
+    stroke: transparent !important;}         
+
+.btn-hub:hover + .account-description {display: none !important;}
+
+:root[tabsintitlebar][sizemode="normal"]:not([gtktiledwindow="true"]) #navigation-toolbox {
+  background-color: #FAFAFA !important;}
+#folderPane {
+  border-radius: 10px !important;
+  background-color: #F4F4F5 !important;
+  margin-left: -6px !important;
+  margin-bottom: -6px !important;}
+
+menupopup > menu,
+menupopup > menuitem {margin: 0px !important;}
+
+html body hbox#messagepaneboxwrapper vbox#messagepanebox browser#messagepane {
+  border-radius: 10px !important;
+  margin-right: 14px !important;
+  margin-bottom: 14px !important;}
+browser#messagepane {margin-left: 1px !important;}
+
+.account-central-header {background-color: #FAFAFA !important;}
+.btn-link.btn-inline:hover {
+  border-radius:10px !important;
+  padding-block: 6px !important;}
+.btn-link {padding: 6px !important;}
+.btn-hub {
+  background-color: #FAFAFA !important;
+  box-shadow: none !important;}
+.btn-hub:hover {
+  background-color: #EBEBEB !important;
+  box-shadow: none !important;}
+button#setupAddressBook.btn-hub.btn-inline {display: none !important;}
+button#setupChat.btn-hub.btn-inline {display: none !important;}
+
+#accountCentral {
+  margin-left: 14px !important;
+  margin-right: 14px !important;
+  margin-bottom: 14px !important;
+  border-radius: 10px !important;
+  max-height: 1000px !important;}
+account-central-header {background-color: transparent !important;}
+.account-central-header.summary-header {background-color: transparent !important;}
+
+.button-appmenu {min-width: 28px !important;}
+.toolbar-button:hover {
+  border-radius: 50px !important;}
+
+.tabmail-tab:not(:focus, :focus-within) .tab-background[selected="true"]{background-color: #EBEBEB !important;}
+.tab-content:hover {background-color: #F1F1F1 !important;}
+.tab-line {display: none !important;}
+html#messengerWindow body toolbox#navigation-toolbox vbox#titlebar toolbar#tabs-toolbar.chromeclass-toolbar {
+  padding-left: 5px !important;
+  padding-right: 5px !important;}
+.tab-content > .tab-label-container {justify-content: center !important;}
+.tab-icon-image {display: none !important;}
+.tabmail-tab {margin-right: 5px !important;
+   min-width: 0 !important;
+   max-width: none !important;}
+button.tab-close-button:hover {
+  border-radius: 100px !important;
+  scale: 0.8 !important;}
+button.tab-close-button {scale: 0.8 !important;}
+
+.card-container:hover {box-shadow: none !important;}
+
+#spacesPopupRevealSeparator {display: none !important;}
+#spacesPopupButtonReveal {display: none !important;}
+#spacesPopupButtonTasks {display: none !important;}
+
+#mailContext-sep-navigation {display: none !important;}
+#context-navigation > .menuitem-iconic,
+#mailContext-navigation > .menuitem-iconic {display: none !important;}
+#mailContext-mark {display: none !important;}
+#mailContext-cancel {display: none !important;}
+#mailContext-editHeaders {display: none !important;}
+#mailContext-moveToFolderAgain {display: none !important;}
+#mailContext-organize {display: none !important;}
+
+.subviewbutton {
+  margin-left: 0px !important;
+  margin-right: 0px !important;}
+#folderTree .mode-name {margin-left: 10px !important;}
+#favorite-aW1hcDovL25pY29sY2hldW5nNTIxJTQwZ21haWwuY29tQGltYXAuZ21haWwuY29t {margin-left: 10px !important;}
+#favorite-b3dsOi8vaXQyMjQ0MSU0MGJyaXN0b2wuYWMudWtAb3V0bG9vay5vZmZpY2UzNjUuY29t {margin-left: 10px !important;}
+li#tags-bWFpbGJveDovL25vYm9keUBzbWFydCUyMG1haWxib3hlcy90YWdzL3Rlc3Q3 {margin-left: 10px !important;}
+li#tags-bWFpbGJveDovL25vYm9keUBzbWFydCUyMG1haWxib3hlcy90YWdzL3Rlc3Q2 {margin-left: 10px !important;}
+li#tags-bWFpbGJveDovL25vYm9keUBzbWFydCUyMG1haWxib3hlcy90YWdzL3Rlc3Q1 {margin-left: 10px !important;}
+li#tags-bWFpbGJveDovL25vYm9keUBzbWFydCUyMG1haWxib3hlcy90YWdzL3JlY2VpcHRz {margin-left: 10px !important;}
+li#tags-bWFpbGJveDovL25vYm9keUBzbWFydCUyMG1haWxib3hlcy90YWdzL2FjYWRlbWlh {margin-left: 10px !important;}
+li#tags-bWFpbGJveDovL25vYm9keUBzbWFydCUyMG1haWxib3hlcy90YWdzL3Rlc3Qz {margin-left: 10px !important;}
+li#tags-bWFpbGJveDovL25vYm9keUBzbWFydCUyMG1haWxib3hlcy90YWdzL3Rlc3Q0 {margin-left: 10px !important;}
+
+#calendarControlBarMenu {border-radius: 6px !important;}
+#refreshCalendar {border-radius: 6px !important;}
+.calendar-month-day-box-day-off {background-color: #F4F4F5 !important;}
+#calMinimonth .minimonth-header.minimonth-month-box 
+  .minimonth-nav-section 
+  .minimonth-nav-item {border: 0px !important;}
+#calMinimonth .minimonth-nav-item {border: 0px !important;}
+#calMinimonth .minimonth-header.minimonth-month-box .minimonth-nav-section {border-radius: 10px !important;}
+#calMinimonth .minimonth-nav-section {border-radius: 10px !important;}
+#calMinimonth {
+   border: 0px !important;
+   border-radius: 13px !important;}
+#sidePanelNewEvent {border-radius: 10px !important}
+#calendarControls {display: none !important;}
+.reminder-icon {
+   fill: color-mix(in srgb, currentColor 15%, transparent) !important;
+   stroke: transparent !important;
+   scale: 1.3 !important;}
+img.item-recurrence-icon {display: none !important;}
+img.item-classification-icon {display: none !important;}
+.minimonth-day {
+   border-radius: 10px !important;
+   padding-top: 10px !important;
+   }
+#calsidebar_splitter {border: 0px !important;}
+.monthtable {border: 0px !important;}
+button#newCalendarSidebarButton.button.button-flat.icon-button {border-radius: 8px !important;}
+.btn-hub {border-radius: 8px !important;}
+span#intervalDescription.view-header {margin-left: 12px !important;}
+calendar-multiweek-view#multiweek-view table.mainbox.monthtable tbody.monthbody tr td:first-child calendar-month-day-box {border-left: none !important;}
+.monthtable calendar-day-label {border-inline-start: 0px !important;}
+.button.minimonth-nav-btn:enabled:hover {
+  border-radius: 8px !important;}
+#tabs-toolbar {
+   background-image: none !important;
+   box-shadow: none !important;}
+
+#tabmail-tabs {
+  margin-bottom: 4px !important; /* space between tabs and content */
+  background: transparent !important;
+  padding: 2px 0 !important;}
+.tabmail-tab {border-radius: 10px !important;}
+.tabmail-tab[selected="true"] {box-shadow: none !important;}
+
+.calview-toggle {
+  border-radius: 10px !important;
+  box-shadow: none !important;
+  font-weight: bold !important;
+  max-height: 37px !important;
+  align-items: center !important;}
+button.calview-toggle-item:hover {
+  border-radius: 8px !important;
+  border: 0px !important;}
+button.calview-toggle-item[role="tab"][aria-selected="true"] {
+  border-radius: 8px !important;
+  box-shadow: none !important;}
+
+hr[is="pane-splitter"][resize-direction="horizontal"]{border: 0px !important;}
+#header-view-toolbox,
+#header-view-toolbar {
+  display: flex !important;
+  width: 100% !important;
+  padding-bottom: 5px !important;
+}
+
+unified-toolbar {border-bottom: 0px !important;}
+
+.account-central-section.zebra {background-color: transparent !important;}
+
+.header-buttons-container {
+  display: flex !important;
+  width: 100% !important;
+  justify-content: flex-start !important;
+  position: relative !important;
+}
+
+#hdrJunkButton,
+#hdrReplyAllButton,
+#hdrForwardButton,
+#hdrSmartReplyButton,
+#hdrTrashButton,
+#otherActionsButton {
+  flex-shrink: 0 !important;
+  margin-right: 3px !important;
+}
+
+#starMessageButton {
+  position: absolute !important;
+  right: 0 !important;
+}
+
+button.email-action-flagged {
+    stroke: transparent !important;
+    scale: 1.4 !important;}
+
+button.email-action-flagged.flagged {
+  stroke: transparent !important;
+}
+
+.button-star {stroke: transparent !important;}
+.search-bar {display: none !important;}
+.mode-container {border-top: 0px !important;}
+splitter[orient="vertical"] {border-top: 0px !important;}
+
+.button {border: transparent !important;}
+
+.toolbarbutton-1 {
+   stroke: lightgray !important;
+   fill-opacity: 0.3 !important;
+}
+
+.toolbarbutton-1:not([is="toolbarbutton-menu-button"]) {
+  border: 0px !important;
+}
+
+.list-header-bar:not([hidden]) {border-bottom: 0px !important;}
+
+.btn-hub {
+  fill: rgba(242, 197, 61, 0.2) !important;
+  stroke: #c88800 !important;
+}
+
+calendar-month-day-box-item[selected="true"].calendar-color-box {background-color: #e3b024 !important;}
+
+.calendar-month-day-box-week-label {display: none !important;}
+
+.section-title {color: #404040 !important;}
+
+#accountLogo {
+  color: #555555 !important;
+}
+
+#folderTree li[data-server-type] > .container > .icon {
+  --icon-color: #d9ab14 !important;
+}
+
+#folderTree li[data-server-type] > .container > .name {
+  color: #333333 !important;
+}
+
+
+.calendar-month-day-box-date-label[relation="today"][selected="true"] {
+    color: white !important;
+}
+
+#calendarWeek {
+    display: none !important;
+}
+
+.minimonth-day[selected="true"]:focus,
+.minimonth-day[selected="true"] {
+    border: none !important;
+    outline: none !important;
+}
+
+.show-more-recipients:hover {
+    background-color: rgba(28, 28, 28, 0.20) !important;
+}
+
+.list-header-title {display: none !important;}
+
+#threadPaneQuickFilterButton {display: none !important;}
+#threadPaneDisplayButton {display: none !important;}
+
+.header-recipient:hover {
+    fill: rgba(128, 128, 128, 0.17) !important;  /* Grey with 50% opacity */
+    background-color: rgba(170, 170, 170, 0.20) !important; /* Adjust background with same opacity */
+    color: #111111 !important;
+    border-radius: 7px !important;
+}
+
+.recipient-address-book-button {margin-right: 5px !important;}
+.header-recipient {
+    padding-left: 5px !important;}
+
+#folderTree > li > .mode-container > .mode-name {
+    color: #777777 !important; 
+    font-size: 12.3px !important;
+}
+
+#folderTree > li > .mode-container > .mode-button {
+  opacity: 0.6 !important;
+}
+
+#addressBookButton { display: none !important; }
+#spacesPopupButtonAddressBook { display: none !important; }
+.recipient-address-book-button { display: none !important; }
+.recipients-list { display: none !important; }
+.menu-accel-container {display: none !important;}
+
+#threadPaneQuickFilterButton {
+   display: none !important;
+}
+
+#threadPaneDisplayButton{
+   opacity: 0.6 !important;
+}
+
+browser#messagepane {
+    padding-left: 18px;
+    padding-right:18px;
+    padding-top: 10px;
+    background-color: white !important;
+}
+
+#toRecipient0.header-recipient {display: none !important;}
+
+
+.toolbarbutton-1.message-header-view-button {
+    color: #555555 !important;
+    fill: #777777 !important;
+}
+
+#header-view-toolbar .toolbarbutton-text {
+    font-size: 13px !important;
+     color: #555555 !important;
+}
+
+.hdrArchiveButton {
+    display: none !important;
+}
+
+.toolbarbutton-menubutton-button::before {
+    display: none !important;
+}
+
+#header-view-toolbar .toolbarbutton {
+    font-size: 13px !important;  /* Set font size of all toolbar buttons */
+}
+
+.thread-pane-count-info {
+   font-size: 12.3px !important; 
+   color: #606060 !important;
+}
+
+.state.replied {opacity: 0.6 !important;}
+
+.recipient-multi-line-name {
+   font-size: 95% !important;
+}
+
+.recipient-multi-line-address {
+   font-size: 85% !important;
+   color: #555555 !important;
+}
+
+.message-header-hide-label-column .row-heading:not(#subjectHeading, #fromHeading, #tagsHeading) {
+  margin-right: 6px !important;
+  margin-left: 10px !important;
+}
+
+.tag:first-of-type {
+   margin-left: 10px !important;
+}
+
+#expandedtoRow .message-header-datetime {
+  display: none !important;
+}
+
+.recipients-list {margin-top: 10px !important;}
+
+toolbarbutton#button-appmenu.buton.toolbar-button.button-appmenu:hover {
+  border-radius: 50px !important;
+  scale: 0.9 !important;}
+#unifiedToolbar .button:is(.toolbar-button, .unified-toolbar-button) {
+  scale: 0.9 !important;
+  border-radius: 50px !important;}
+
+
+#threadTree[rows="thread-card"] .card-layout[data-properties~="unread"][data-properties~="new"] .subject {color: #e3b024 !important;}
+
+image.toolbarbutton-icon {
+  stroke: black !important;
+  stroke-width: 2px !important;}
+
+#expandedtoBox {display: none !important;}
+
+#expandedsubjectBox {
+    margin-left: 8px !important;
+    margin-top: -5px !important;
+    font-size: 19px !important;
+    font-weight: bold !important;
+    color: #111111 !important;}
+
+.message-header-view-button .toolbarbutton-text {
+  font-size: 80% !important;
+  margin-left: 2px !important;}
+.toolbarbutton-1  .toolbarbutton-icon {
+  stroke: transparent !important;
+  scale: 1.1 !important;}
+#appMenu-fontSizeReset-button:hover {background: transparent !important;}
+#appMenu-fontSizeReset-button > .toolbarbutton-text {
+  border: 0px !important;
+  border-radius: 5px !important;
+  padding: 5px !important;
+  margin-left: -2px !important;
+  margin-right: -2px !important;}
+
+toolbarbutton.subviewbutton:not([disabled], [open], :active):is(:hover, :focus-visible) {background-color: #EBEBEB !important;}
+#appMenu-fontSizeReduce-button:hover {background: transparent !important;}
+#appMenu-fontSizeEnlarge-button:hover {background: transparent !important;}
+.subviewbutton:not([disabled="true"], .toolbaritem-combined-buttons):hover {background: transparent !important;} 
+.toolbaritem-combined-buttons > .subviewbutton:hover {background: transparent !important;}
+
+.PanelUI-subView .toolbaritem-combined-buttons > .subviewbutton[type="radio"] {
+  border: 0px !important;
+  margin-left: 2px !important;}
+.toolbaritem-combined-buttons > .subviewbutton:hover {background-color: #EBEBEB !important;}
+
+#toHeading.row-heading {display: none !important;}
+#toRecipient0Display.recipient-single-line {display: none !important;}
+#toRecipient0.header-recipient {display: none !important;}
+#expandedtoBox.multi-recipient-row {display: none !important;}
+#replytoHeading.row-heading {display: none !important;}
+#reply-toRecipient0.header-recipient {display: none !important;}
