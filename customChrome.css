@@ -9,6 +9,16 @@
   --new-folder-color: #e3b024 !important;
 }
 
+box.scrollbox-clip {
+  width: max-content !important;
+  padding-inline-end: 12px !important;}
+
+.card-container .date {
+  font-size: 12.3px !important;
+  opacity:0.6 !important;}
+
+#appMenu-popup panelview {min-width: 300px !important;}
+
 #threadTree[rows="thread-card"] .card-layout td .card-container .read-status {stroke: transparent !important;}
 [is="tree-view-table-body"] > .card-layout > td > .card-container {border: 0px !important;}
 [is="tree-view-table-body"] > .card-layout > td > .card-container::before {border: 0px !important;}
@@ -161,12 +171,33 @@ calendar-multiweek-view#multiweek-view table.mainbox.monthtable tbody.monthbody 
   font-weight: bold !important;
   max-height: 37px !important;
   align-items: center !important;}
+button.calview-toggle-item {
+  padding-block: 6px !important;
+  padding-inline: 13px !important;}
 button.calview-toggle-item:hover {
-  border-radius: 8px !important;
-  border: 0px !important;}
+  border-radius: 10px !important;
+  border: 0px !important;
+  height: 35px !important;
+  margin: 4px !important;}
 button.calview-toggle-item[role="tab"][aria-selected="true"] {
-  border-radius: 8px !important;
-  box-shadow: none !important;}
+  border-radius: 10px !important;
+  box-shadow: none !important;
+  border: 0px !important;}
+button.calview-toggle-item[role="tab"][aria-selected="true"]:hover {
+  border: 0px !important;
+  max-height: 33px !important;
+  padding-block-start: 2px !important;
+  padding-block-end: 2px !important;
+  padding-inline-start: 12.5px !important;
+  padding-inline-end: 12.5px !important;
+  margin: 3.5px !important;
+  background-color: #FAFAFA !important;}
+
+#sidePanelNewEvent {font-weight: bold !important;}
+.button-primary {
+  padding-inline-start: 40px !important;
+  padding-inline-end: 20px !important;
+  padding-block: 8px !important;}
 
 hr[is="pane-splitter"][resize-direction="horizontal"]{border: 0px !important;}
 #header-view-toolbox,
