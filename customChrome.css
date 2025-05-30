@@ -426,3 +426,63 @@ toolbarbutton.subviewbutton:not([disabled], [open], :active):is(:hover, :focus-v
 #expandedtoBox.multi-recipient-row {display: none !important;}
 #replytoHeading.row-heading {display: none !important;}
 #reply-toRecipient0.header-recipient {display: none !important;}
+
+#attachmentView {border-top: 0px !important;}
+#attachmentBar {
+  margin-bottom: 10px !important;
+  margin-top: -5px !important;}
+#attachmentCount {font-size: 12.3px !important;}
+#attachmentName {
+  font-size: 12.3px !important;
+  font-weight: bold !important;
+  margin-inline-start: 3px !important;
+  margin-inline-end: 3px !important;
+  padding: 3px !important;}
+#attachmentName:is(:hover, [selected="true"]) {
+  color: #111111 !important;
+  background-color: #EBEBEB !important;}
+#attachmentSize {
+  font-size: 12.3px !important;
+  color: #777777 !important;
+  margin-inline-start: 2px !important;}
+#attachmentSaveAllSingle > .toolbarbutton-menubutton-button > .toolbarbutton-text {
+  padding-inline-end: 20px !important;
+  font-weight: bold !important;}
+#attachmentSaveAllSingle > .toolbarbutton-menubutton-button {
+  border-radius: 10px !important;
+  margin-right: 11px !important;
+  margin-top: 5px !important;
+  margin-bottom: 8px !important;}
+#attachmentSaveAllSingle > .toolbarbutton-menubutton-button:hover {
+  border-color: transparent !important;}
+#attachmentList {
+  border-top: 0px !important;
+  background-color: #FAFAFA !important;
+  margin-top: 0px !important;}
+.toolbarbutton-1 {border: 0px !important;}
+.attachmentItem {width: flex !important;
+  border-color: transparent !important;
+  border: 0px !important;
+  border-radius: 10px !important;
+  padding-inline-start: 10px !important;
+  padding-inline-end: 10px !important; 
+  margin-top: -3px !important; 
+  margin-bottom: 15px !important; 
+  background-color: transparent !important;
+  padding: 3px !important;}
+.attachmentItem:hover {background-color: #EBEBEB !important;}
+.attachmentList:focus[selected="true"]{background-color: #EBEBEB !important;}
+.attachmentcell-icon {display: none !important;}
+.attachmentcell-name {
+  font-size: 12.3px !important;
+  font-weight: bold !important;
+  margin-inline-start:30px !important;
+  color: #e3b024 !important;}
+.attachmentcell-extension {
+  font-size: 12.3px !important;
+  font-weight: bold !important;
+  color: #e3b024 !important;
+  margin-inline-end: 30px !important;}
+.attachmentcell-size {display: none !important;}
+#attachmentToggle {stroke: #e3b024 !important;}
+.toolbarbutton-1:not([disabled="true"]):is(:hover, [open="true"]) > .toolbarbutton-menubutton-button {border-color: transparent !important;}
